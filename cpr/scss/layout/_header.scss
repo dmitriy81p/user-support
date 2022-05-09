@@ -1,0 +1,157 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	
+	width:100%; 
+	min-width: $min-width;
+	text-align:left;	
+	order: 1;	
+    -webkit-order: 1;	
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header{
+    z-index: 1;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5.2rem;
+    
+}
+.header-box__item{
+    display: flex;
+    align-items: center;
+}
+.header-box__link{
+    width: 13.1rem;
+    min-width: 13.1rem;
+    img{
+        width: 100%;
+    }
+}
+.header-box__text{
+    min-width: 19.4rem;
+    width: 19.4rem;
+    opacity: 0.5;
+color: #000000;
+font-family: $rob;
+font-size: 1.25rem;
+    letter-spacing: -0.01rem;
+font-weight: 300;
+
+line-height: 1.48;
+    margin-left: 5.6rem;
+    position: relative;
+    top: -0.1rem;
+}
+.header-box__btn{
+    width: 21.6rem;
+    min-width: 21.6rem;
+height: 5rem;
+border-radius: 2.5rem;
+border: 0.1rem dotted #0288fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0288fe;
+font-family: $rob;
+font-size: 1.4rem;
+font-weight: 300;
+    margin-right: 6.4rem;
+    transition: 0.2s;
+    padding-top: 0.1rem;
+    &:hover{
+        border: 0.1rem solid #0288fe;
+        background: #0288fe;
+        color: white;
+    }
+}
+.header-box__num{
+    display: flex;
+        align-items: center;
+    .icon-icon5{
+        margin-right: 1.6rem;
+        opacity: 0.3;
+    }
+}
+.header-box__num-text{
+    display: flex;
+    flex-direction: column;
+
+ 
+}
+.header-box__num-text{
+    opacity: 0.66;
+color: #000000;
+font-family: $rob;
+font-size: 1.05rem;
+font-weight: 300;
+line-height: 1.8;
+}
+.header-box__num-link{
+    color: #000000;
+font-family: "Gotham Pro";
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 1.6;
+
+letter-spacing: -0.05rem;
+}
+.header-box__menu{
+    color: rgba(0,0,0,0.2);
+font-family: $got;
+font-size: 1.1rem;
+font-weight: 700;
+
+text-transform: uppercase;
+/* Text style for "меню" */
+letter-spacing: -0.022rem;
+    transform: rotate(-90deg);
+}
+.header-box__gamburger{
+    display: flex;
+    margin-right: 12.3rem;
+}
+.header-box__line{
+    width: 3.6rem;
+    height: 2.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span:first-child{
+        width: 100%;
+    }
+    span:nth-of-type(2){
+        width: 1.5rem;
+    }
+    span:last-child{
+        width: 2.3rem;
+    }
+    span{
+        height: 3px;
+        background: black
+    }
+}
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
